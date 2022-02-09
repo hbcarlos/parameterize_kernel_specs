@@ -1,0 +1,9 @@
+
+.jp-Dialog-body-KernelSpecs {
+	min-height: 200px;
+}
+
+.form-group.field.field-string {
+	display: flex;
+	justify-content: space-between;
+}

@@ -7,3 +7,7 @@
 	display: flex;
 	justify-content: space-between;
 }
+
+.jp-select-kernel {
+	margin-bottom: 20px;
+}

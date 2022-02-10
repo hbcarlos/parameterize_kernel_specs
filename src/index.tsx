@@ -222,7 +222,7 @@ class KernelSpecDialog
         <div className="jp-select-wrapper">
           <select
             id="kernel"
-            className="jp-mod-styled"
+            className="jp-mod-styled jp-select-kernel"
             onChange={this._handlerKernel}
           >
             {selectKernel()}
@@ -251,7 +251,7 @@ const EXAMPLE: KernelSpec = {
       parameters: {
         cpp_version: {
           type: 'string',
-          default: '11',
+          default: '14',
           enum: ['11', '14', '17'],
           save_to_notebook: true
         }
